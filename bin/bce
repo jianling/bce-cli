@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'bce';
+
+process.on('uncaughtException', function(err) {
+  console.error('Caught exception:\n', err.stack, '\n\nMind letting us know? https://github.com/jianling/bce-cli/issues\n');
+});
+
+var BceCli = require('../lib/cli');
+BceCli.run(process.argv);
+// .catch(function(err){
+//   console.error('Caught exception:\n', err.stack, '\n\nMind letting us know? https://github.com/jianling/bce-cli/issues\n');
+// });
