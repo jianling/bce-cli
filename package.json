@@ -1,6 +1,6 @@
 {
   "name": "bce",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "preferGlobal": true,
   "description": "A tool for creating and developing bce mobile app.",
   "homepage": "http://bce.baidu.com/",
@@ -29,7 +29,8 @@
     "fs-extra": "0.30.0",
     "node-sass": "3.10.1",
     "autoprefixer": "6.4.1",
-    "postcss": "5.2.0"
+    "postcss": "5.2.0",
+    "webpack": "^2.1.0-beta.25"
   },
   "devDependencies": {
 
