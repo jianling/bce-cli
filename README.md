@@ -23,6 +23,8 @@ This command will:
    - cordova-plugin-splashscreen
    - cordova-plugin-statusbar
    - ionic-plugin-keyboard
+   - cordova-plugin-app-version
+   - call-number
    - https://github.com/jianling/cordova-HTTP
    - https://github.com/jianling/cordova-plugin-inappbrowser
  - add iOS platform for application
