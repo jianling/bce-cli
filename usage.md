@@ -8,3 +8,9 @@ Setup bce webApp project:
 
 ### bce buildCommon
 Build common css and webpack dll
+
+### bce hcp build [www_directory]
+Build `hcp.json` and `hcp.manifest`
+
+### bce hcp deploy [www_directory]
+Upload all www file to bos bucket
