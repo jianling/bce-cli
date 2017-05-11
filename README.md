@@ -6,7 +6,7 @@ Use the `bce --help` command for more detailed task information.
 $ npm install -g bce
 ```
 
-Note: You should install [ionic](https://www.npmjs.com/package/ionic) first.
+Note: You should install [ionic(v2.1.13)](https://www.npmjs.com/package/ionic) first.
 
 
 ## Setup bce webAPP
@@ -17,16 +17,24 @@ This command will:
  - create project base template from: [bce-app-base](https://github.com/jianling/bce-app-base)
  - install npm packages
  - add cordova plugins
-   - cordova-plugin-device
-   - cordova-plugin-console
-   - cordova-plugin-whitelist
-   - cordova-plugin-splashscreen
-   - cordova-plugin-statusbar
-   - ionic-plugin-keyboard
+   - cordova-hot-code-push-plugin
    - cordova-plugin-app-version
-   - call-number
+   - https://github.com/jianling/cordova-plugin-bdpush
+   - cordova-plugin-compat
+   - cordova-plugin-console
+   - cordova-plugin-device
+   - cordova-plugin-file
    - https://github.com/jianling/cordova-HTTP
    - https://github.com/jianling/cordova-plugin-inappbrowser
+   - https://github.com/jianling/cordova-plugin-mtj
+   - https://github.com/jianling/cordova-plugin-multiview
+   - cordova-plugin-nativestorage
+   - https://github.com/jianling/cordova-plugin-payment.git
+   - cordova-plugin-splashscreen
+   - cordova-plugin-statusbar
+   - cordova-plugin-whitelist
+   - ionic-plugin-keyboard
+   - call-number
  - add iOS platform for application
 
 ## Build common css and webpack Dll file
